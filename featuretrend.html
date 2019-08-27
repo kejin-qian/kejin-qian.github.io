@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <div class="topnav">
-  <a href="/index.html">Map Explorer</a>
-  <a href="/box.html">Regional Variance</a>
-  <a href="/bubblefeature.html">Happiness Indicators</a>
-  <a href="/barchart.html">Happiness Indicators by Region</a>
-  <a class="active"  href="/featuretrend.html">Feature Trend</a>
-  <a href="/interaction.html">Happiness Interactions</a>
-  <a href="/comparison.html">Countrywise Comparisons</a>
+    <a href="/Key_to_Happiness/">Home</a>
+  <a href="/Key_to_Happiness/">Map Explorer</a>
+  <a href="/Key_to_Happiness/box.html">Regional Variance</a>
+  <a href="/Key_to_Happiness/bubblefeature.html">Happiness Indicators</a>
+  <a href="/Key_to_Happiness/barchart.html">Happiness Indicators by Region</a>
+  <a class="active"  href="/Key_to_Happiness/featuretrend.html">Feature Trend</a>
+  <a href="/Key_to_Happiness/interaction.html">Happiness Interactions</a>
+  <a href="/Key_to_Happiness/comparison.html">Countrywise Comparisons</a>
 </div>
 <header>
     <h1><center>Feature Trend</center></h1>
@@ -141,16 +142,15 @@ font-size: 13px;
 <body>
 
 
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<!-- <script src="//d3-tip/javascripts/d3.tip.v0.6.3.js"></script> -->
+<script src="///labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 
 <script>
 
 var margin = {top: 10, right: 25, bottom: 30, left: 200},
     width = 1200 - margin.left - margin.right,
     height = 460 - margin.top - margin.bottom;
-
-  
 var x = d3.scale.linear()
     .range([0, width-80]);
 
